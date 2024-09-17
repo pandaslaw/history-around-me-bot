@@ -1,0 +1,11 @@
+loguru
+black
+openai
+pydantic
+pytest
+python-dotenv
+requests
+#langchain
+#streamlit
+pyTelegramBotAPI
+#fastapi
