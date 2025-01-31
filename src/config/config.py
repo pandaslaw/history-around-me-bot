@@ -18,7 +18,7 @@ class AppSettings(BaseSettings):
 
     LANGUAGE_MODEL: str
 
-    SYSTEM_PROMPT: str
+    SYSTEM_PROMPT: str = None
 
     TELEGRAM_BOT_TOKEN: str
 
@@ -26,7 +26,7 @@ class AppSettings(BaseSettings):
 
     def load_prompts_from_yaml(self, yaml_file="prompts.yaml"):
         """Load prompts from the specified YAML file."""
-        root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../"))
+        root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
         docs_dir = "data"
         yaml_file_full_path = os.path.join(root_dir, docs_dir, yaml_file)
 

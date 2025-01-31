@@ -3,7 +3,7 @@ from logging import getLogger
 
 from openai import OpenAI
 
-from src.config import app_settings
+from src.config.config import app_settings
 
 logger = getLogger(__name__)
 

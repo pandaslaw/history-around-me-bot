@@ -14,8 +14,8 @@ from telegram.ext import (
     Application,
 )
 
-from src.config import app_settings
-from src.logging_config import setup_logging
+from src.config.config import app_settings
+from src.config.logging_config import setup_logging
 from src.utils import generate_answer, escape_markdown_v2
 
 logger = getLogger(__name__)
