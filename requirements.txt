@@ -1,11 +1,9 @@
-loguru
 black
 openai
 pydantic
 pytest
 python-dotenv
 requests
-#langchain
-#streamlit
 pyTelegramBotAPI
-#fastapi
+python-telegram-bot
+pyyaml
